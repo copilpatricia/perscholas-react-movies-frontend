@@ -20,7 +20,7 @@ function MovieDetails() {
     };
 
     fetchData();
-  }, []);
+  }, [params.id]);
 
   return (
     <div>
